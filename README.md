@@ -1,4 +1,4 @@
-# grunt-dust [![build status](https://secure.travis-ci.org/vtsvang/grunt-dust.png)](http://travis-ci.org/vtsvang/grunt-dust) [![dependencies status](https://david-dm.org/vtsvang/grunt-dust.png)](https://david-dm.org/vtsvang/grunt-dust)
+# grunt-dust
 
 Grunt.js plugin to compile dustjs templates.
 
@@ -277,6 +277,11 @@ dust: {
 For more examples on how to use the `expand` API to manipulate the default dynamic path construction in the `glob_to_multiple` examples, see "Building the files object dynamically" in the grunt wiki entry [Configuring Tasks](http://gruntjs.com/configuring-tasks).
 
 ## Release History
+
+* Forked ahwswebdev version
+
+* v0.0.1 updated to latest linkedin dust (version 2.4.0)
+
 * v0.9.0
   - CommonJS wrapper now returns dust object instead of function [Thanks to [Jannik Zschiesche](https://github.com/apfelbox)]
   - CommonJS wrapper uses correct runtime file from now on [Thanks to [Jannik Zschiesche](https://github.com/apfelbox)]
@@ -359,7 +364,4 @@ For more examples on how to use the `expand` API to manipulate the default dynam
 ## License
 Copyright (c) 2013 Vladimir Tsvang
 Licensed under the MIT license.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vtsvang/grunt-dust/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 

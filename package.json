@@ -1,23 +1,23 @@
 {
-  "name": "grunt-dust",
+  "name": "ahws-grunt-dust",
   "description": "Grunt.js plugin to compile dustjs templates.",
-  "version": "0.9.1",
-  "homepage": "https://github.com/vtsvang/grunt-dust",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ahwswebdev/grunt-dust",
   "author": {
-    "name": "Vladimir Tsvang",
-    "email": "vtsvang@gmail.com"
+    "name": "ahwswebdev",
+    "email": "hello@world.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vtsvang/grunt-dust.git"
+    "url": "git://github.com/ahwswebdev/grunt-dust.git"
   },
   "bugs": {
-    "url": "https://github.com/vtsvang/grunt-dust/issues"
+    "url": "https://github.com/ahwswebdev/grunt-dust/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/vtsvang/grunt-dust/blob/master/LICENSE-MIT"
+      "url": "https://github.com/ahwswebdev/grunt-dust/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "grunt": "~0.4.1",
-    "dustjs-linkedin": "2.3.3",
+    "dustjs-linkedin": "2.4.0",
     "coffee-script": "~1.7.1",
     "js-beautify": "~1.4.2"
   },
